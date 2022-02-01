@@ -17,7 +17,7 @@ header {
 }
 
 header img {
-    width: 200px;
+    width: 50%;
     display: block;
     background-color: BB495B;
     margin: 5px auto;
@@ -27,14 +27,14 @@ header img {
 
 main {
     background-color: C1DACE;
-    margin: 20px auto;
+    margin: 0px auto;
     width: 600px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
 }
 
 main img {
-    width: 200px;
+    width: 50%;
     display: block;
     background-color: 659BBD;
     margin: 5px auto;
@@ -44,5 +44,26 @@ main img {
 }
 footer {
     background-color: 659BBD;
+    margin: 20px 0 auto;
     border-radius: 100px;
+}
+nav {
+    background-color: A8DADC;
+    padding-top: 10px;
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    background-color: 457B9D;
+    height: 40px;
+    width: 157px;
+    font-size: 0.625cm;
+    font-weight: bold;
+    line-height: 40px;
+    color: C1DACE;
+    border-radius: 10px 10px 0 0;
+}
+nav a:hover {
+    background-color: C1DACE;
+    color: 457B9D;
 }
