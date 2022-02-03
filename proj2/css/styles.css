@@ -54,16 +54,16 @@ nav {
 }
 nav a{
     display: inline-block;
-    background-color: 457B9D;
+    background-color: 91AA9E;
     height: 40px;
     width: 157px;
     font-size: 0.625cm;
     font-weight: bold;
     line-height: 40px;
-    color: C1DACE;
+    color: 154B6D;
     border-radius: 10px 10px 0 0;
 }
 nav a:hover {
-    background-color: C1DACE;
-    color: 457B9D;
+    background-color: B1CABE;
+    color: 356B8D;
 }
